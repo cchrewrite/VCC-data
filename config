@@ -1,0 +1,55 @@
+max_initialisations = 1024
+max_operations = 1024
+
+# ======= Learning Module Parameters =======
+additional_sampling = False
+max_num_sampling_states = 65536
+max_operations = 1024
+rd_seed = 777
+neg_prop = 1.0
+cv_prop = 0.01
+feat_type = one-hot
+tendency_model = SKCART
+
+# ======= Genetic Modification Parameters ======
+use_genetic_modifications = False
+num_genetic_candidates = 100
+num_genetic_breadth = 1
+num_genetic_generations = 5
+num_genetic_result = 10
+
+# ======= Repair Module Parameters =======
+num_displayed_repairs = 4
+mcss_max_num_samples = 10000
+apply_repair_simplification = False
+max_CFG_length = 5
+max_CFG_set_cardinality = 5
+max_num_repair_epochs = 10
+
+# ====== Reachability Repair Parameters ======
+#boundary_theta = 4.0
+boundary_theta = 1.0
+semantic_search_depth = 2
+literal_search_time_limit = 60000
+substitution_search_time_limit = 30000
+
+apply_deduction_clustering = False
+apply_reachability_repair_merging = False
+
+max_literal_set_cardinality = 3
+max_literal_depth = 3
+max_number_of_candidate_literals = 500
+num_neg_examples = -1
+deduction_breadth = 500
+deduction_depth = 5
+min_cluster_size = 2
+
+
+# ======= Quality Evaluation Section =======
+prob_changes = 0.1
+mc_time_limit = 1000
+word_limit = 100000
+
+# ======= SKCART Section =======
+skcart_num_tree = -1
+
