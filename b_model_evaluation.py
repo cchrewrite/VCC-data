@@ -151,11 +151,7 @@ SType = sg.GetSetTypeFromTransList(T_derived)
 T_derived = Bmch.list_union(T_derived,[])
 T_desired = Bmch.list_union(T_desired,[])
 
-"""
-for x in T_derived: print x
-print len(T_derived)
-ppppp
-"""
+
 
 FT_derived = []
 TT_derived = []
